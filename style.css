@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #39016e;
+    color: #ffffff;
+    text-align: center;
+    font-family: "IBM Plex Sans";
+}
+
+table {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+td {
+    padding: 1%;
+}
+
+h1 {
+    font-size: 64px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+/* credit: https://stackoverflow.com/a/14731123 */
+h2::before, h2::after {
+    background-color: #ffffff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h2::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h2::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+a {
+    color: #ffffff;
+}
+
+li {
+    text-align: left;
+}
